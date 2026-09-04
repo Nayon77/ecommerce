@@ -1,0 +1,107 @@
+/* =========================================
+   Basic Website Style & Color Theme
+   Theme Color: Modern Teal (#0d9488) & Dark Navy (#1e293b)
+========================================= */
+
+body {
+    background-color: #f8fafc;
+    color: #333333;
+}
+
+/* Top bar color */
+.top-menu {
+    background-color: #1e293b !important;
+}
+
+/* Main navigation active and hover color */
+.navbar-nav .nav-link.active {
+    color: #0d9488 !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0d9488 !important;
+}
+
+/* Primary buttons */
+.btn-primary {
+    background-color: #0d9488 !important;
+    border-color: #0d9488 !important;
+}
+
+.btn-primary:hover {
+    background-color: #0f766e !important;
+    border-color: #0f766e !important;
+}
+
+.btn-outline-primary {
+    color: #0d9488 !important;
+    border-color: #0d9488 !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0d9488 !important;
+    border-color: #0d9488 !important;
+    color: #ffffff !important;
+}
+
+/* Carousel banner images */
+.carousel-item img {
+    height: 420px;
+    object-fit: cover;
+}
+
+/* Product Cards */
+.card {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
+}
+
+.card .card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.card-text {
+    font-weight: bold;
+    color: #0d9488;
+}
+
+/* Product details page */
+.product-image {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.thumbnail {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    cursor: pointer;
+    opacity: 0.6;
+    border-radius: 6px;
+    transition: opacity 0.3s ease, border 0.3s ease;
+}
+
+.thumbnail:hover, .thumbnail.active {
+    opacity: 1;
+    border: 2px solid #0d9488;
+}
+
+/* Footer Section */
+.footer-section {
+    background-color: #1e293b !important;
+}
